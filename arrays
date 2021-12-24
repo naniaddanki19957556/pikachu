@@ -1,0 +1,12 @@
+var array=[2,3,4,5,6];
+let sum=0;
+let rows=0;
+ var rows = window. prompt("Enter your rows: ")
+for(let i=0;i<array.length;i++){
+}
+for(let i=0;i<=rows;i++){
+for(let j=1;j<=i;j++){
+sum+=array[i]+array[j];
+}
+}
+console.log("the sum of two digits is:");
